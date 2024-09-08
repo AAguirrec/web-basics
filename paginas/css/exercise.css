@@ -1,0 +1,23 @@
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(4, 100px);
+  grid-gap: 10px;
+}
+
+.box {
+  background-color: #444;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2em;
+}
+
+.a {
+  grid-column: span 2;
+}
+
+.b {
+  grid-row: span 2;
+}
